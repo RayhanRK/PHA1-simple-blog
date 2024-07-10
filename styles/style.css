@@ -201,7 +201,7 @@ body{
     height: 200px;
     padding: 64px 48px;
     width: 1140px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.2);
     
   }
   .support-container h1 {
@@ -241,3 +241,4 @@ body{
     padding: 32px 150px;
     
   }
+
