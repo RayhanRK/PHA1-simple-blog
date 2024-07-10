@@ -22,6 +22,10 @@ body{
     cursor:pointer;
 }
 
+.text-center{
+    text-align: center;
+}
+
 /* start with banner section */
 .banner-container{
     min-height: 582px;
@@ -75,13 +79,6 @@ body{
     /* align-items: center; */
     text-align: center;
 }
-   
-    /* justify-content: center;
-} */
-
-.why-des{
-
-}
 .why-des{
     Font: Azeret Mono
 Font weight: 400;
@@ -89,48 +86,22 @@ Font size: 16px;
 Align:center;
 }
 
-/* current-target-container */
-.current-container{
-    width: 1140px;
-    height: 863px;
-    margin: 0 auto;
-    margin: 150px;
-    border: 3px solid red;
-}
-
-.current-title-container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-  margin: 0 auto;  
-  border: 3px solid red;
- 
-}
-
 .support{
     border: 3px solid red;
- 
-}
-
-.skill{
-
-}
+    height: 314px;
+    width: 1140px;
+    margin: 0 auto;
+ }
 
 .insp-container{ 
    
     height: 650px;
     width: 1140px;
     margin: 0 auto;
-    
-}
+    }
 
 .insp-title{
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
+   
     color: rgb(13, 19, 33);
     display: flex;
     flex-direction: column;
@@ -148,7 +119,6 @@ Align:center;
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 60px;
-
 }
 
 .video-container{
@@ -162,6 +132,69 @@ margin: 0 auto;
 
 }
 
-.footer{
-    display:inline-flex;
+/* current-target-container */
+.current-container{
+   
+    height: 650px;
+    width: 1140px;
+    margin: 0 auto;
 }
+
+.current-title-container{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+ 
+}
+
+.current-des{
+    width: 70%;
+    text-align: center;
+    color:rgb(86, 70, 70);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 60px;
+
+}
+.lm{
+    text-decoration: underline;
+}
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+
+}
+
+.support{
+
+    min-height: 314px;
+    max-width: 1140px;
+    background-image: url(/images/handshake.jpg)
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-bottom: 74px;
+}
+
+.input{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 1084px;
+   
+}
+
+
+/* footter style start here */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 50px;
+    
+  }
