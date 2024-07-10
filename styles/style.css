@@ -1,26 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-} */
-
 
 body{
     font-family: "Azeret Mono", monospace;
    
 }
 
-.btn-1{
-    border-radius: 8px;
-    background: rgb(13, 19, 33);
-    color: rgb(255, 255, 255);
-    padding: 21px 24px;
-    font-size: 20px;
-    font-weight: 600;
-    cursor:pointer;
-}
+/* shared styles */
+
+
+.banner-btn {
+    background-color: #0d1321;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+
+  .primary-btn {
+    color: #0d1321;
+    border: 1px solid #0d1321;
+    padding:12px 18px;
+    border-radius: 3px;
+  }
 
 .text-center{
     text-align: center;
@@ -57,41 +59,45 @@ body{
 
 }
 
-.why-web-container{ 
-    margin-top: 74px;
-    margin-bottom: 88px;
-    border: 2px solid red;
-    /* background-color: rgba(13, 19, 33, 0.02); */
-    background-color: rgb(86, 70, 70);
-    border-radius: 16px;
-}
- 
+/* why web development styles starts here */
 
-.first-sec{
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
+.why-dev-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
 }
 
+.why-dev-sec {
+    margin-top: 40px;
+  }
+  .why-dev-detail > h1 {
+    margin: 20px;
+  }
+  /* <!-- why web-dev cards style start --> */
+  
+  .why-dev-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-right: 80px;
+    margin-left: 80px;
+    padding: 40px;
+    border-radius: 5px;
+    /* box-shadow: 4px 3px 20px 0px rgba(54, 53, 53, 0.651); */
+  }
+  
+  .why-dev-card-detail > h1 {
+    margin-bottom: 20px;
+  }
+  .why-dev-card-details > p {
+    margin-bottom: 20px;
+  }
+  
 
-.why-web{ border: 2px solid yellow;
-    /* display: flex; */
-    /* align-items: center; */
-    text-align: center;
-}
-.why-des{
-    Font: Azeret Mono
-Font weight: 400;
-Font size: 16px;
-Align:center;
-}
+/* why web development styles ends here */
 
-.support{
-    border: 3px solid red;
-    height: 314px;
-    width: 1140px;
-    margin: 0 auto;
- }
 
 .insp-container{ 
    
@@ -121,71 +127,88 @@ Align:center;
     margin-bottom: 60px;
 }
 
-.video-container{
-    border: 2px solid red;
-    width: 600px;
-height: 350px;
-box-sizing: border-box;
-border: 1px solid rgba(13, 19, 33, 0.2);
-border-radius: 16px;
-margin: 0 auto;
+.inspiration-video {
+    background-color: rgba(154, 202, 235, 0.363);
+    border: 1px solid #dbe1ee;
+    border-radius: 10px;
+    padding: 50px;
+  }
 
-}
 
-/* current-target-container */
-.current-container{
-   
-    height: 650px;
-    width: 1140px;
-    margin: 0 auto;
-}
-
-.current-title-container{
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
- 
-}
-
-.current-des{
-    width: 70%;
-    text-align: center;
-    color:rgb(86, 70, 70);
-    font-size: 14px;
-    font-weight: 400;
-    margin-bottom: 60px;
-
-}
-.lm{
-    text-decoration: underline;
-}
-
-.skills-container{
+/* my current target section style start */
+.current-target {
+    margin-bottom: 40px;
+  }
+  .current-target h1 {
+    margin-bottom: 20px;
+  }
+  .current-target-cards {
     display: flex;
-    gap: 24px;
+    align-items: center;
+    justify-content:space-around;
+    margin: 30px;
+    padding: 20px;
+  }
+  .current-cards-data {
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  .current-cards-data img {
+    margin-bottom: 20px;
+  }
+  .current-cards-data h3 {
+    margin-bottom: 10px;
+    font-size: bold;
+  }
+  .current-cards-data p {
+    margin-bottom: 20px;
+  }
+  .current-cards-data a {
+    font-size: larger;
+    color: #0d1321;
+  }
+  .html {
+    border-radius: 6px;
+    background-color: #e6d1cd;
+  }
+  .css {
+    border-radius: 6px;
+    background-color: rgb(124, 124, 173);
+  }
+  .js {
+    border-radius: 6px;
+    background-color: rgb(177, 223, 159);
+  }
 
-}
+.support-container {
+    background-image: url(/images/handshake.jpg);
+    margin: 20px;
+    padding: 80px;
+    text-align: center;
+    border-radius: 10px;
+    height: 200px;
+  }
+  .support-container h1 {
+      margin-bottom: 20px;
+  }
+  .support-container  p{
+      margin-bottom: 20px;
+  }
+  .support-input {
+      padding: 10px;
+      background-color: #ffffff;
+      border: 1px solid white;
+      border-radius: 5px;
+      margin: 10px;
+  }
 
-.support{
-
-    min-height: 314px;
-    max-width: 1140px;
-    background-image: url(/images/handshake.jpg)
-    background-repeat: no-repeat;
-    background-size:cover;
-    margin-bottom: 74px;
-}
-
-.input{
-    height: 64px;
+.support-btn {
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
     border-radius: 5px;
-    background-color: white;
-    display: block;
-    width: 1084px;
-   
+    font-size: bold;
+    
 }
 
 
@@ -195,6 +218,6 @@ margin: 0 auto;
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
-    padding: 50px;
+    padding: 30px;
     
   }
