@@ -8,6 +8,18 @@ body{
 
 /* shared styles */
 
+.para{
+    font-size: 12px;
+    color: rgb(13, 19, 33,0.7);
+
+}
+
+.par2{
+    font-size: 14px;
+    color: rgb(13, 19, 33,0.7);
+
+}
+
 
 .banner-btn {
     background-color: #0d1321;
@@ -22,7 +34,7 @@ body{
     border: 1px solid #0d1321;
     padding:12px 18px;
     border-radius: 3px;
-  }
+  } 
 
 .text-center{
     text-align: center;
@@ -149,21 +161,21 @@ body{
     margin: 30px;
     padding: 20px;
   }
-  .current-cards-data {
+  .current-cards-det {
     margin-bottom: 20px;
     padding: 20px;
   }
-  .current-cards-data img {
+  .current-cards-det  img {
     margin-bottom: 20px;
   }
-  .current-cards-data h3 {
+  .current-cards-det h3 {
     margin-bottom: 10px;
     font-size: bold;
   }
-  .current-cards-data p {
+  .current-cards-det  p {
     margin-bottom: 20px;
   }
-  .current-cards-data a {
+  .current-cards-det  a {
     font-size: larger;
     color: #0d1321;
   }
@@ -182,28 +194,36 @@ body{
 
 .support-container {
     background-image: url(/images/handshake.jpg);
-    margin: 20px;
+    margin: 0 auto;
     padding: 80px;
     text-align: center;
     border-radius: 10px;
     height: 200px;
+    padding: 64px 48px;
+    width: 1140px;
+    
+
   }
   .support-container h1 {
       margin-bottom: 20px;
+      color: rgb(255, 255, 255);
   }
   .support-container  p{
       margin-bottom: 20px;
+      color: rgb(255, 255, 255, 0.9);
   }
   .support-input {
-      padding: 10px;
+      padding: 14px 20px;
       background-color: #ffffff;
       border: 1px solid white;
       border-radius: 5px;
       margin: 10px;
+      width: 250px;
+      height: 10px;
   }
 
 .support-btn {
-    padding: 10px;
+    padding: 11px 20px;
     background-color: #ffffff;
     border: 1px solid #ffffff;
     border-radius: 5px;
@@ -218,6 +238,6 @@ body{
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
-    padding: 30px;
+    padding: 32px 150px;
     
   }
