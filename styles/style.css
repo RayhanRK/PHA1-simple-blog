@@ -9,7 +9,7 @@ body{
 /* shared styles */
 
 .para{
-    font-size: 14px;
+    font-size: 16px;
     color: rgb(13, 19, 33,0.7);
 
 }
@@ -142,7 +142,7 @@ body{
     width: 70%;
     text-align: center;
     color:rgb(86, 70, 70);
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
     margin-bottom: 60px;
 }
