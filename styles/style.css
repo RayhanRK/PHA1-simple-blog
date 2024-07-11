@@ -203,7 +203,7 @@ body{
   }
 
 .support-container {
-    background-image: url(/images/handshake.jpg);
+    background-image: url(../images/handshake.jpg);
     margin: 0 auto;
     padding: 80px;
     text-align: center;
