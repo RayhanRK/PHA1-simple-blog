@@ -9,13 +9,13 @@ body{
 /* shared styles */
 
 .para{
-    font-size: 12px;
+    font-size: 14px;
     color: rgb(13, 19, 33,0.7);
 
 }
 
 .par2{
-    font-size: 14px;
+    font-size: 16px;
     color: rgb(13, 19, 33,0.7);
 
 }
@@ -73,6 +73,14 @@ body{
 
 /* why web development styles starts here */
 
+.web-dev-sec{
+  max-width: 1140px;
+  background-color: rgba(13, 19, 33, 0.02);
+  padding: 80px 97px 80px 97px;
+  margin: 0 auto;
+   
+}   
+
 .why-dev-container{
     display: flex;
     align-items: center;
@@ -82,6 +90,7 @@ body{
 
 .why-dev-sec {
     margin-top: 40px;
+    
   }
   .why-dev-detail > h1 {
     margin: 20px;
@@ -92,12 +101,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 35px;
-    margin-right: 80px;
-    margin-left: 80px;
+    margin: 35px 80px 87px;
     padding: 40px;
     border-radius: 5px;
-    /* box-shadow: 4px 3px 20px 0px rgba(54, 53, 53, 0.651); */
+    box-shadow: 2px 3px 15px 0px rgba(54, 53, 53, 0.4);
+    width: 1140px;
   }
   
   .why-dev-card-detail > h1 {
@@ -148,6 +156,7 @@ body{
 
 
 /* my current target section style start */
+
 .current-target {
     margin-bottom: 40px;
   }
@@ -158,8 +167,9 @@ body{
     display: flex;
     align-items: center;
     justify-content:space-around;
-    margin: 30px;
+    margin: 120px ;
     padding: 20px;
+    
   }
   .current-cards-det {
     margin-bottom: 20px;
